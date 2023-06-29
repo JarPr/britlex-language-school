@@ -48,6 +48,7 @@ img {
     --text-black-color: #000;
     --text-dark-color: #263238;
     --card-background-color: #F5F5F5;
+    --numbers-color: #2A3246;
 }
 
 .container {
@@ -179,7 +180,7 @@ img {
 }
 
 .skills-item {
-    background: var(--card-background-color);
+    background-color: var(--card-background-color);
 }
 
 .skills-list {
@@ -272,8 +273,56 @@ img {
 
 /*#endregion---------------Skills-------------*/
 
-.text {
+/*#region------------- About us------------- */
+
+.about-container {
+    display: flex;
+    gap: 146px;
+    margin-bottom: 180px;
+}
+
+.about-wrap {
+    width: 652px;
+}
+
+.about-text {
     font-weight: 400;
     font-size: 20px;
     line-height: 1.8;
+    margin-bottom: 30px;
 }
+
+.number-text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.8;
+    text-align: center;
+}
+
+.about-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-item {
+    width: 108px;
+}
+
+.about-number {
+    color: var(--numbers-color);
+    font-size: 48px;
+    font-weight: 600;
+    line-height: normal;
+    display: block;
+    text-align: center;
+    margin-bottom: 6px;
+}
+
+/*#endregion------------- About us------------- */
+
+/*#region--------------Pricing---------------*/
+
+
+
+
+/*#endregion--------------Pricing---------------*/
