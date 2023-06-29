@@ -186,7 +186,7 @@ img {
 .skills-list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
     grid-column-gap: 30px;
     grid-row-gap: 30px;
 }
@@ -233,14 +233,14 @@ img {
     margin-bottom: 20px;
 }
 
-.skills-container .text {
+.skills-text {
     /* font-family: Poppins; */
     font-size: 16px;
     line-height: normal;
     margin-bottom: 30px;
 }
 
-.skills-container .text-1 {
+.skills-text-1 {
     margin-bottom: 24px;
 }
 
@@ -285,7 +285,7 @@ img {
     width: 652px;
 }
 
-.about-text {
+.text {
     font-weight: 400;
     font-size: 20px;
     line-height: 1.8;
@@ -322,7 +322,8 @@ img {
 
 /*#region--------------Pricing---------------*/
 
+.pricing-text {}
 
-
+.pricing {}
 
 /*#endregion--------------Pricing---------------*/
